@@ -80,6 +80,12 @@ fn main() {
     // Añadir nuestro "Hola Mundo Blockchain" al blockchain
     blockchain.add_block("Hola mundo Blockchain".to_string());
 
+    // Añadir nuestro "test one Blockchain" al blockchain
+    blockchain.add_block("test one in Blockchain".to_string());
+
+    // Añadir nuestro "otro mensaje" al blockchain
+    blockchain.add_block("Aqui va un mensaje motivacional".to_string());
+
     // imprimir la cadena
     for block in blockchain.chain {
         println!(
